@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <base href="/">
+    <meta charset="UTF-8"/>
+  </head>
+  <body ng-app="otm_app">
+    <div>
+      <ng-view></ng-view>
+    </div>
+    <!-- import Angularjs libs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+
+    <!-- Main Quill library -->
+    <script src="//cdn.quilljs.com/1.3.6/quill.min.js"></script>
+
+    <!-- import jquery and bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Add each view's controller here -->
+    <script type="text/javascript" src="js/controllers/home_page_ctrl.js"></script>
+    <script type="text/javascript" src="js/controllers/about_page_ctrl.js"></script>
+    <script type="text/javascript" src="js/controllers/quilltest_page_ctrl.js"></script>
+    <script type="text/javascript" src="js/controllers/login_form_ctrl.js"></script>
+    <script type="text/javascript" src="js/controllers/photo_uploader_ctrl.js"></script>
+    <script type="text/javascript" src="js/controllers/admin_page_ctrl.js"></script>
+    <script type="text/javascript" src="js/controllers/user_page_ctrl.js"></script>
+
+    <script type="text/javascript" src="js/app.js"></script>
+
+  </body>
+</html>

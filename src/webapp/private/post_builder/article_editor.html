@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Article editor</title>
+    <link href="kothing-editor.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="my-editor">Hi</textarea>
+  </body>
+
+  <script src="kothing-editor.min.js"></script>
+  <!-- <script type="module">
+
+  </script> -->
+  <script type="text/javascript">
+  /**
+   * ID : 'my-editor'
+   * ClassName : 'kothing-eidtor'
+   */
+  // ID or DOM object
+  KothingEditor.create(document.getElementById('my-editor'), {
+    // All of the plugins are loaded in the "window.KothingEditor" object in kothing-editor.min.js file
+    // Insert options
+    // toolbarItem: [
+    //   ['undo', 'redo'],
+    //   [font, fontSize, formatBlock],
+    //   ['bold', 'underline', 'italic', 'strike', 'subscript', 'superscript'],
+    //   ['removeFormat'],
+    //   [fontColor, hiliteColor],
+    //   ['outdent', 'indent'],
+    //   [align, horizontalRule, list, table],
+    //   [link, image, video],
+    //   ['fullScreen', 'showBlocks', 'codeView'],
+    //   ['preview', 'print'],
+    //   ['save', template],
+    // ]
+    width: '100%',
+  });
+  </script>
+</html>

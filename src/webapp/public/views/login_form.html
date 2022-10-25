@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+  </head>
+  <body>
+    <div>
+      <form ng-submit="submit()" class="form" novalidate>
+        <table>
+          <tr>
+            <h4>
+              <strong>{{userMessage}}</strong>
+            </h4>
+          </tr>
+          <tr>
+            <td><input type="email" ng-model="email" placeholder="Email address"/></td>
+          </tr>
+          <tr>
+            <td><input type="password" ng-model="pwd" placeholder="Password"/></td>
+          </tr>
+          <tr>
+            <td><input type="submit"/></td>
+          </tr>
+        </table>
+      </form>
+      <p>{{httpMessage}}</p>
+    </div>
+  </body>
+</html>

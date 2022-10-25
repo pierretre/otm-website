@@ -1,0 +1,81 @@
+idées de fonctionnement :
+
+>> Barre de navigation contenant les sections auxquelles on souhaite accéder
+  (peut prendre la forme du bouton burger)
+  sections :
+  - Publications
+    - Tout
+    - Articles
+    - Photos
+    - Vidéos
+  - OTM
+  - Profils :
+    - Adrien
+    - Mehdi
+    - Oscar
+    - Pierre
+  - A propos
+  - Contact
+
+
+>> Pages du site
+ > page d'accueil :
+  - section avec les derniers articles/posts
+  - section avec les liens vers les pages perso
+
+ > page contact :
+  - formulaire de contact
+  - brève explication du projet otm_app
+
+ > page OTM :
+  - présentation du projet et des membres avec les liens vers les profils
+
+ > pages persos :
+  - partie profil imaginée par Oscar (assez similaire pour toutes les pages persos)
+  - partie posts avec affichage des dernières publications à la manière des posts instagrams
+  - page unique au goût de chacun, liens vers d'autres pages persos si il y en a plus d'une
+  - contenu ultra libre pour le reste
+
+ > page liste des articles/posts :
+  - liste de X articles
+  - droplist avec des options d'affichage (date/nom/popularité)
+  - choix de l'affichage des articles/images/vidéos
+  - choix de l'affichage des publications de chaque personne
+  - choix de l'affichage des publications contenant certains targets
+  - boutons en bas de la page pour afficher plus de publications + mettre indicateur du nombre d'articles
+
+ > page affichage article/post :
+  - les articles ont tous la même forme générale avec des variations dans le contenu
+    car il est impossible de faire un éditeur d'articles dans lequel il y a trop
+    d'options de mise en forme
+  - différentes mises en forme selon la nature de la publication (article/phot/vidéo)
+
+  => forme générale de l'article :
+      - titre
+      - image principale
+      - introduction/résumé
+      - corps de l'article :
+        - texte
+        - images intégrées au texte (idée : mettre des balises html pour placer les images)
+        - liens (balises html aussi)
+      - auteur : profil réduit de l'auteur + lien vers sa page
+      - date
+      - espace commentaires
+
+  => forme générale de la publication photo :
+    - image (en bonne qualité avec possibilité de zoomer)
+    - titre
+    - description
+    - auteur : profil réduit de l'auteur + lien vers sa page
+    - date
+    - nombre de vues ? likes ?
+    - espace commentaires
+
+  => forme générale de la publication vidéo :
+    - lecteur vidéo youtube intégré dans la page
+    - titre
+    - description
+    - auteur : profil réduit de l'auteur + lien vers sa page
+    - date
+    - nombre de vues ? likes ?
+    - espace commentaires
