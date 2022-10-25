@@ -1,6 +1,10 @@
 # otm
 OTM project
 
+# Status of the project:
+This project is stopped and not maintained, it's just an example of jwt authentication in a nodeJS app, the front-end is not even started yet. 
+
+FR:
 **Installation du projet :**
 
 Préalablement installer git et nodejs sur son pc.
